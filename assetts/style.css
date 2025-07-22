@@ -1,5 +1,4 @@
 * {
-    background-color: #2d2c2c;
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal
@@ -8,6 +7,7 @@
 body {
     margin:0;
     padding: 0;
+     background-color: #2d2c2c;
 }
 
 #box {
@@ -34,7 +34,7 @@ p {
 }
 
 .header {
-    background-image: url('assets/img/background/background.jpg');
+    background-image: url('img/background/background.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -44,6 +44,7 @@ p {
     align-items: center;
     padding: 2rem;
     padding-bottom: none;
+    border: 2px solid red;
 }
 
 .mainfelipe {
