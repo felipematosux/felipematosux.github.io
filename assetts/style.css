@@ -1,0 +1,46 @@
+* {
+    background-color: #2d2c2c;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal
+}
+
+body {
+    margin:0;
+    padding: 0;
+}
+
+#box {
+    background-color: #2d2c2c;
+    color: #FBFBFB;
+}
+
+#name1 {
+    font-size: 64px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #FBFBFB;
+}
+
+#role {
+    color: #E83D3D;
+    font-size: 32px;
+
+}
+
+p {
+    color: #FBFBFB;
+}
+
+.header {
+    background-image: url('assets/img/background/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
