@@ -1,3 +1,11 @@
+:root {
+    --primary: #E83D3D;
+    --secondary: #A41313;
+    --light:#fbfbfb;
+    --dark-1:#2D2C2C;
+    --dark-2:#525151;
+}
+
 * {
     font-family: "Lato", sans-serif;
     font-weight: 400;
@@ -7,12 +15,12 @@
 body {
     margin:0;
     padding: 0;
-     background-color: #2d2c2c;
+     background-color: var(--dark-1);
 }
 
 #box {
-    background-color: #2d2c2c;
-    color: #FBFBFB;
+    background-color: var(--dark-1);
+    color: var(--light);
 }
 
 #name1 {
@@ -20,17 +28,17 @@ body {
     font-family: "Lato", sans-serif;
     font-weight: 700;
     font-style: normal;
-    color: #FBFBFB;
+    color: var(--light);
 }
 
 #role {
-    color: #E83D3D;
+    color: var(--primary);
     font-size: 32px;
 
 }
 
 p {
-    color: #FBFBFB;
+    color: var(--light);
 }
 
 .header {
@@ -44,7 +52,7 @@ p {
     align-items: center;
     padding: 2rem;
     padding-bottom: none;
-    border: 2px solid red;
+    border: 2px solid var(--secondary);
 }
 
 .mainfelipe {
