@@ -4,6 +4,7 @@
     --light:#fbfbfb;
     --dark-1:#2D2C2C;
     --dark-2:#525151;
+    --dark-lowopacity:rgba(45, 44, 44, 0.7);
 }
 
 * {
@@ -19,8 +20,9 @@ body {
 }
 
 #box {
-    background-color: var(--dark-1);
+    background-color: var(--dark-lowopacity);
     color: var(--light);
+    padding:10px;    
 }
 
 #name1 {
@@ -57,4 +59,8 @@ p {
 
 .mainfelipe {
     width: 650px;
+}
+
+.socialsvg {
+    color: var(--light);
 }
