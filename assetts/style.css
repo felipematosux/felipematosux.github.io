@@ -8,15 +8,26 @@
 }
 
 * {
+    background-image: url('img/background/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 10px 10px 0px 10px;
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal
 }
 
 body {
-    margin:0;
-    padding: 0;
      background-color: var(--dark-1);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
 }
 
 #box {
@@ -28,7 +39,7 @@ body {
 }
 
 #name1 {
-    font-size: 64px;
+    font-size: 30px;
     font-family: "Lato", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -46,17 +57,7 @@ p {
 }
 
 .header {
-    background-image: url('img/background/background.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem 2rem 0 2rem;
-    padding-bottom: none;
-    border: 2px 2px 0 2px solid var(--secondary);
+
 }
 
 .mainfelipe {
@@ -69,4 +70,7 @@ p {
 
 .description {
     text-align: justify;
+}
+.center {
+    align-self: flex-end;
 }
